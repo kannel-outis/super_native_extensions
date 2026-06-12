@@ -20,7 +20,7 @@ dependencies:
   uuid: ^4.1.0
   irondash_engine_context:
     git:
-      url: git@github.com:kannel-outis/irondash.git
+      url: https://github.com/kannel-outis/irondash.git
       ref: v1.0.0-SPM
       path: engine_context/dart
   irondash_message_channel: ^0.7.0
