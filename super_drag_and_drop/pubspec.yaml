@@ -2,6 +2,7 @@ name: super_drag_and_drop
 description: Native Drag and Drop support for Flutter. Allows dragging contents across applications.
 version: 0.9.1
 homepage: https://github.com/superlistapp/super_native_extensions
+publish_to: none
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -11,20 +12,20 @@ dependencies:
   flutter:
     sdk: flutter
   collection: ^1.16.0
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
   super_native_extensions:
     git:
       url: git@github.com:kannel-outis/super_native_extensions.git
-      ref: v1.0.0-super-native-extensions-SPM
+      ref: v1.0.1-super-native-extensions-SPM
       path: super_native_extensions
+dev_dependencies:
   super_clipboard:
     git:
       url: git@github.com:kannel-outis/super_native_extensions.git
-      ref: v1.0.0-super-clipboard-SPM
+      ref: v1.0.1-super-clipboard-SPM
       path: super_clipboard
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
