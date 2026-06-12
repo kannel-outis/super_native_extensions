@@ -21,7 +21,7 @@ dependencies:
   irondash_engine_context:
     git:
       url: git@github.com:kannel-outis/irondash.git
-      ref: 762de07b265cc0701335659187c36edc857dce90
+      ref: v1.0.0-SPM
       path: engine_context/dart
   irondash_message_channel: ^0.7.0
   device_info_plus: ">=10.0.1 <12.0.0"
