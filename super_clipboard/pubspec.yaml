@@ -22,7 +22,7 @@ dev_dependencies:
   super_native_extensions:
     git:
       url: git@github.com:kannel-outis/super_native_extensions.git
-      ref: v1.0.0-super-native-extensions-SPM
+      ref: v1.0.1-super-native-extensions-SPM
       path: super_native_extensions
 
 # For information on the generic Dart part of this file, see the
