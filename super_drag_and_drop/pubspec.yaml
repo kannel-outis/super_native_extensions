@@ -11,24 +11,21 @@ dependencies:
   flutter:
     sdk: flutter
   collection: ^1.16.0
-  super_native_extensions: ^0.9.1
-  super_clipboard: ^0.9.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  super_native_extensions:
+    git:
+      url: git@github.com:kannel-outis/super_native_extensions.git
+      ref: v0.0.3
+      path: super_native_extensions
+  super_clipboard:
+    git:
+      url: git@github.com:kannel-outis/super_native_extensions.git
+      ref: v0.0.3
+      path: super_clipboard
 
-dependency_overrides: 
-    super_native_extensions:
-      git:
-        url: git@github.com:kannel-outis/super_native_extensions.git
-        ref: v0.0.3
-        path: super_native_extensions
-    super_clipboard:
-      git:
-        url: git@github.com:kannel-outis/super_native_extensions.git
-        ref: v0.0.3
-        path: super_clipboard
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

@@ -5,7 +5,7 @@ let package = Package(
     name: "super_native_extensions",
     platforms: [.iOS(.v12)],
     products: [
-        .library(name: "super_native_extensions", targets: ["super_native_extensions"])
+        .library(name: "super-native-extensions", targets: ["super_native_extensions"])
     ],
     targets: [
         .binaryTarget(
@@ -15,7 +15,6 @@ let package = Package(
         .target(
             name: "super_native_extensions",
             dependencies: ["SuperNativeExtensionsRust"],
-            path: "Classes",
             publicHeadersPath: ".",
             linkerSettings: [
                 .linkedFramework("CoreServices"),
